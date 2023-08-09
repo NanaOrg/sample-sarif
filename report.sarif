@@ -53,7 +53,7 @@
             {
               "id": "CVE-2022-3171 (com.google.protobuf:protobuf-java)",
               "shortDescription": {
-                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3171)"
+                "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a HIGH level security issue CVE-2022-3171"
               },
               "fullDescription": {
                 "text": "A parsing issue with binary data in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.",
@@ -73,7 +73,7 @@
             {
               "id": "CVE-2022-3509 (com.google.protobuf:protobuf-java)",
               "shortDescription": {
-                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3509)"
+                "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a HIGH level security issue CVE-2022-3509"
               },
               "fullDescription": {
                 "text": "A parsing issue similar to CVE-2022-3171, but with textformat in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.",
@@ -93,7 +93,7 @@
             {
               "id": "CVE-2021-22570 (com.google.protobuf:protobuf-java)",
               "shortDescription": {
-                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2021-22570)"
+                "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a MEDIUM level security issue CVE-2021-22570"
               },
               "fullDescription": {
                 "text": "Nullptr dereference when a null char is present in a proto symbol. The symbol is parsed incorrectly, leading to an unchecked call into the proto file\u0027s name during generation of the resulting error message. Since the symbol is incorrectly parsed, the file is nullptr. We recommend upgrading to version 3.15.0 or greater.",
@@ -113,7 +113,7 @@
             {
               "id": "CVE-2021-22569 (com.google.protobuf:protobuf-java)",
               "shortDescription": {
-                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2021-22569)"
+                "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a MEDIUM level security issue CVE-2021-22569"
               },
               "fullDescription": {
                 "text": "An issue in protobuf-java allowed the interleaving of com.google.protobuf.UnknownFieldSet fields in such a way that would be processed out of order. A small malicious payload can occupy the parser for several minutes by creating large numbers of short-lived objects that cause frequent, repeated pauses. We recommend upgrading libraries beyond the vulnerable versions.",
@@ -133,7 +133,7 @@
             {
               "id": "CVE-2022-3510 (com.google.protobuf:protobuf-java)",
               "shortDescription": {
-                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3510)"
+                "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a HIGH level security issue CVE-2022-3510"
               },
               "fullDescription": {
                 "text": "A parsing issue similar to CVE-2022-3171, but with Message-Type Extensions in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.",
@@ -490,8 +490,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 33,
+                  "endLine": 33
                 }
               }
             },
@@ -539,8 +539,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 33,
+                  "endLine": 33
                 }
               }
             },
@@ -568,7 +568,7 @@
             }
           },
           "message": {
-            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3171)"
+            "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a HIGH level security issue CVE-2022-3171"
           },
           "locations": [
             {
@@ -580,15 +580,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             }
@@ -608,7 +601,7 @@
             }
           },
           "message": {
-            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3509)"
+            "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a HIGH level security issue CVE-2022-3509"
           },
           "locations": [
             {
@@ -620,15 +613,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             }
@@ -658,7 +644,7 @@
             }
           },
           "message": {
-            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2021-22570)"
+            "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a MEDIUM level security issue CVE-2021-22570"
           },
           "locations": [
             {
@@ -670,15 +656,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             }
@@ -701,7 +680,7 @@
             }
           },
           "message": {
-            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2021-22569)"
+            "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a MEDIUM level security issue CVE-2021-22569"
           },
           "locations": [
             {
@@ -713,15 +692,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             }
@@ -741,7 +713,7 @@
             }
           },
           "message": {
-            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3510)"
+            "text": "mysql:mysql-connector-java:8.0.16 has a dependency (com.google.protobuf:protobuf-java-3.6.1) which has a HIGH level security issue CVE-2022-3510"
           },
           "locations": [
             {
@@ -753,15 +725,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             }
@@ -796,8 +761,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -865,8 +830,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -922,8 +887,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -960,8 +925,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -1013,8 +978,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -1074,8 +1039,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -1118,8 +1083,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -1161,8 +1126,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -1202,8 +1167,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -1247,8 +1212,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -1286,8 +1251,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -1351,8 +1316,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
@@ -1394,8 +1359,8 @@
                   }
                 },
                 "region": {
-                  "startLine": -1,
-                  "endLine": -1
+                  "startLine": 47,
+                  "endLine": 47
                 }
               }
             },
