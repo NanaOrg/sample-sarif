@@ -1,0 +1,1477 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Meterian",
+          "informationUri": "https://docs.meterian.io/",
+          "semanticVersion": "1.0.0",
+          "fullName": "Meterian BOSS scanner",
+          "rules": [
+            {
+              "id": "CVE-2017-5929 (ch.qos.logback:logback-core)",
+              "shortDescription": {
+                "text": "[security] ch.qos.logback:logback-core-1.1.11 is vulnerable (CVE-2017-5929)"
+              },
+              "fullDescription": {
+                "text": " QOS.ch Logback before 1.2.0 has a serialization vulnerability affecting the SocketServer and ServerSocketReceiver components.",
+                "markdown": "# CVE-2017-5929  \n QOS.ch Logback before 1.2.0 has a serialization vulnerability affecting the SocketServer and ServerSocketReceiver components.  \n**(cvss: 9.8)(epss: 0.00966)**  \n## Safe Versions  \n+ 1.4.9 (minor upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2017-5929](https://nvd.nist.gov/vuln/detail/CVE-2017-5929)\n"
+              },
+              "help": {
+                "text": " QOS.ch Logback before 1.2.0 has a serialization vulnerability affecting the SocketServer and ServerSocketReceiver components.",
+                "markdown": "# CVE-2017-5929  \n QOS.ch Logback before 1.2.0 has a serialization vulnerability affecting the SocketServer and ServerSocketReceiver components.  \n**(cvss: 9.8)(epss: 0.00966)**  \n## Safe Versions  \n+ 1.4.9 (minor upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2017-5929](https://nvd.nist.gov/vuln/detail/CVE-2017-5929)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "10.0"
+              }
+            },
+            {
+              "id": "CVE-2021-42550 (ch.qos.logback:logback-core)",
+              "shortDescription": {
+                "text": "[security] ch.qos.logback:logback-core-1.1.11 is vulnerable (CVE-2021-42550)"
+              },
+              "fullDescription": {
+                "text": "In logback version 1.2.9 and prior versions, an attacker with the required privileges to edit configurations files could craft a malicious configuration allowing to execute arbitrary code loaded from LDAP servers.",
+                "markdown": "# CVE-2021-42550  \nIn logback version 1.2.9 and prior versions, an attacker with the required privileges to edit configurations files could craft a malicious configuration allowing to execute arbitrary code loaded from LDAP servers.  \n**(cvss: 6.6)(epss: 0.01555)**  \n## Safe Versions  \n+ 1.4.9 (minor upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://github.com/cn-panda/logbackRceDemo](https://github.com/cn-panda/logbackRceDemo)\n+ [https://github.com/qos-ch/logback/commit/87291079a1de9369ac67e20dc70a8fdc7cc4359c](https://github.com/qos-ch/logback/commit/87291079a1de9369ac67e20dc70a8fdc7cc4359c)\n+ [https://github.com/qos-ch/logback/commit/ef4fc4186b74b45ce80d86833820106ff27edd42](https://github.com/qos-ch/logback/commit/ef4fc4186b74b45ce80d86833820106ff27edd42)\n+ [https://github.com/qos-ch/logback/blob/1502cba4c1dfd135b2e715bc0cf80c0045d4d128/logback-site/src/site/pages/news.html](https://github.com/qos-ch/logback/blob/1502cba4c1dfd135b2e715bc0cf80c0045d4d128/logback-site/src/site/pages/news.html)\n+ [https://github.com/advisories/GHSA-668q-qrv7-99fm](https://github.com/advisories/GHSA-668q-qrv7-99fm)\n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-42550](https://nvd.nist.gov/vuln/detail/CVE-2021-42550)\n"
+              },
+              "help": {
+                "text": "In logback version 1.2.9 and prior versions, an attacker with the required privileges to edit configurations files could craft a malicious configuration allowing to execute arbitrary code loaded from LDAP servers.",
+                "markdown": "# CVE-2021-42550  \nIn logback version 1.2.9 and prior versions, an attacker with the required privileges to edit configurations files could craft a malicious configuration allowing to execute arbitrary code loaded from LDAP servers.  \n**(cvss: 6.6)(epss: 0.01555)**  \n## Safe Versions  \n+ 1.4.9 (minor upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://github.com/cn-panda/logbackRceDemo](https://github.com/cn-panda/logbackRceDemo)\n+ [https://github.com/qos-ch/logback/commit/87291079a1de9369ac67e20dc70a8fdc7cc4359c](https://github.com/qos-ch/logback/commit/87291079a1de9369ac67e20dc70a8fdc7cc4359c)\n+ [https://github.com/qos-ch/logback/commit/ef4fc4186b74b45ce80d86833820106ff27edd42](https://github.com/qos-ch/logback/commit/ef4fc4186b74b45ce80d86833820106ff27edd42)\n+ [https://github.com/qos-ch/logback/blob/1502cba4c1dfd135b2e715bc0cf80c0045d4d128/logback-site/src/site/pages/news.html](https://github.com/qos-ch/logback/blob/1502cba4c1dfd135b2e715bc0cf80c0045d4d128/logback-site/src/site/pages/news.html)\n+ [https://github.com/advisories/GHSA-668q-qrv7-99fm](https://github.com/advisories/GHSA-668q-qrv7-99fm)\n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-42550](https://nvd.nist.gov/vuln/detail/CVE-2021-42550)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2022-3171 (com.google.protobuf:protobuf-java)",
+              "shortDescription": {
+                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3171)"
+              },
+              "fullDescription": {
+                "text": "A parsing issue with binary data in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.",
+                "markdown": "# CVE-2022-3171  \nA parsing issue with binary data in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.  \n**(cvss: 7.5)(epss: 0.00064)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3171](https://nvd.nist.gov/vuln/detail/CVE-2022-3171)\n+ [https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-h4h5-3hr4-j3g2](https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-h4h5-3hr4-j3g2)\n"
+              },
+              "help": {
+                "text": "A parsing issue with binary data in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.",
+                "markdown": "# CVE-2022-3171  \nA parsing issue with binary data in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.  \n**(cvss: 7.5)(epss: 0.00064)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3171](https://nvd.nist.gov/vuln/detail/CVE-2022-3171)\n+ [https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-h4h5-3hr4-j3g2](https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-h4h5-3hr4-j3g2)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "8.0"
+              }
+            },
+            {
+              "id": "CVE-2022-3509 (com.google.protobuf:protobuf-java)",
+              "shortDescription": {
+                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3509)"
+              },
+              "fullDescription": {
+                "text": "A parsing issue similar to CVE-2022-3171, but with textformat in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.",
+                "markdown": "# CVE-2022-3509  \nA parsing issue similar to CVE-2022-3171, but with textformat in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.  \n**(cvss: 7.5)(epss: 0.00044)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3509](https://nvd.nist.gov/vuln/detail/CVE-2022-3509)\n+ [https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9](https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9)\n+ [https://github.com/advisories/GHSA-g5ww-5jh7-63cx](https://github.com/advisories/GHSA-g5ww-5jh7-63cx)\n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3509](https://nvd.nist.gov/vuln/detail/CVE-2022-3509)\n"
+              },
+              "help": {
+                "text": "A parsing issue similar to CVE-2022-3171, but with textformat in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.",
+                "markdown": "# CVE-2022-3509  \nA parsing issue similar to CVE-2022-3171, but with textformat in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.  \n**(cvss: 7.5)(epss: 0.00044)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3509](https://nvd.nist.gov/vuln/detail/CVE-2022-3509)\n+ [https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9](https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9)\n+ [https://github.com/advisories/GHSA-g5ww-5jh7-63cx](https://github.com/advisories/GHSA-g5ww-5jh7-63cx)\n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3509](https://nvd.nist.gov/vuln/detail/CVE-2022-3509)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "8.0"
+              }
+            },
+            {
+              "id": "CVE-2021-22570 (com.google.protobuf:protobuf-java)",
+              "shortDescription": {
+                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2021-22570)"
+              },
+              "fullDescription": {
+                "text": "Nullptr dereference when a null char is present in a proto symbol. The symbol is parsed incorrectly, leading to an unchecked call into the proto file\u0027s name during generation of the resulting error message. Since the symbol is incorrectly parsed, the file is nullptr. We recommend upgrading to version 3.15.0 or greater.",
+                "markdown": "# CVE-2021-22570  \nNullptr dereference when a null char is present in a proto symbol. The symbol is parsed incorrectly, leading to an unchecked call into the proto file\u0027s name during generation of the resulting error message. Since the symbol is incorrectly parsed, the file is nullptr. We recommend upgrading to version 3.15.0 or greater.  \n**(cvss: 5.5)(epss: 0.00045)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-22570](https://nvd.nist.gov/vuln/detail/CVE-2021-22570)\n+ [https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.0](https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.0)\n+ [https://github.com/advisories/GHSA-77rm-9x9h-xj3g](https://github.com/advisories/GHSA-77rm-9x9h-xj3g)\n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-22570](https://nvd.nist.gov/vuln/detail/CVE-2021-22570)\n"
+              },
+              "help": {
+                "text": "Nullptr dereference when a null char is present in a proto symbol. The symbol is parsed incorrectly, leading to an unchecked call into the proto file\u0027s name during generation of the resulting error message. Since the symbol is incorrectly parsed, the file is nullptr. We recommend upgrading to version 3.15.0 or greater.",
+                "markdown": "# CVE-2021-22570  \nNullptr dereference when a null char is present in a proto symbol. The symbol is parsed incorrectly, leading to an unchecked call into the proto file\u0027s name during generation of the resulting error message. Since the symbol is incorrectly parsed, the file is nullptr. We recommend upgrading to version 3.15.0 or greater.  \n**(cvss: 5.5)(epss: 0.00045)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-22570](https://nvd.nist.gov/vuln/detail/CVE-2021-22570)\n+ [https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.0](https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.0)\n+ [https://github.com/advisories/GHSA-77rm-9x9h-xj3g](https://github.com/advisories/GHSA-77rm-9x9h-xj3g)\n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-22570](https://nvd.nist.gov/vuln/detail/CVE-2021-22570)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2021-22569 (com.google.protobuf:protobuf-java)",
+              "shortDescription": {
+                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2021-22569)"
+              },
+              "fullDescription": {
+                "text": "An issue in protobuf-java allowed the interleaving of com.google.protobuf.UnknownFieldSet fields in such a way that would be processed out of order. A small malicious payload can occupy the parser for several minutes by creating large numbers of short-lived objects that cause frequent, repeated pauses. We recommend upgrading libraries beyond the vulnerable versions.",
+                "markdown": "# CVE-2021-22569  \nAn issue in protobuf-java allowed the interleaving of com.google.protobuf.UnknownFieldSet fields in such a way that would be processed out of order. A small malicious payload can occupy the parser for several minutes by creating large numbers of short-lived objects that cause frequent, repeated pauses. We recommend upgrading libraries beyond the vulnerable versions.  \n**(cvss: 5.5)(epss: 0.00082)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-22569](https://nvd.nist.gov/vuln/detail/CVE-2021-22569)\n"
+              },
+              "help": {
+                "text": "An issue in protobuf-java allowed the interleaving of com.google.protobuf.UnknownFieldSet fields in such a way that would be processed out of order. A small malicious payload can occupy the parser for several minutes by creating large numbers of short-lived objects that cause frequent, repeated pauses. We recommend upgrading libraries beyond the vulnerable versions.",
+                "markdown": "# CVE-2021-22569  \nAn issue in protobuf-java allowed the interleaving of com.google.protobuf.UnknownFieldSet fields in such a way that would be processed out of order. A small malicious payload can occupy the parser for several minutes by creating large numbers of short-lived objects that cause frequent, repeated pauses. We recommend upgrading libraries beyond the vulnerable versions.  \n**(cvss: 5.5)(epss: 0.00082)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-22569](https://nvd.nist.gov/vuln/detail/CVE-2021-22569)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2022-3510 (com.google.protobuf:protobuf-java)",
+              "shortDescription": {
+                "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3510)"
+              },
+              "fullDescription": {
+                "text": "A parsing issue similar to CVE-2022-3171, but with Message-Type Extensions in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.",
+                "markdown": "# CVE-2022-3510  \nA parsing issue similar to CVE-2022-3171, but with Message-Type Extensions in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.  \n**(cvss: 7.5)(epss: 0.00044)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3510](https://nvd.nist.gov/vuln/detail/CVE-2022-3510)\n+ [https://github.com/protocolbuffers/protobuf/commit/db7c17803320525722f45c1d26fc08bc41d1bf48](https://github.com/protocolbuffers/protobuf/commit/db7c17803320525722f45c1d26fc08bc41d1bf48)\n+ [https://github.com/advisories/GHSA-4gg5-vx3j-xwc7](https://github.com/advisories/GHSA-4gg5-vx3j-xwc7)\n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3510](https://nvd.nist.gov/vuln/detail/CVE-2022-3510)\n"
+              },
+              "help": {
+                "text": "A parsing issue similar to CVE-2022-3171, but with Message-Type Extensions in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.",
+                "markdown": "# CVE-2022-3510  \nA parsing issue similar to CVE-2022-3171, but with Message-Type Extensions in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.  \n**(cvss: 7.5)(epss: 0.00044)**  \n## Safe Versions  \n+ 3.24.0 (minor upgrade)  \n+ 4.0.0-rc-2 (major upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3510](https://nvd.nist.gov/vuln/detail/CVE-2022-3510)\n+ [https://github.com/protocolbuffers/protobuf/commit/db7c17803320525722f45c1d26fc08bc41d1bf48](https://github.com/protocolbuffers/protobuf/commit/db7c17803320525722f45c1d26fc08bc41d1bf48)\n+ [https://github.com/advisories/GHSA-4gg5-vx3j-xwc7](https://github.com/advisories/GHSA-4gg5-vx3j-xwc7)\n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-3510](https://nvd.nist.gov/vuln/detail/CVE-2022-3510)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "8.0"
+              }
+            },
+            {
+              "id": "CVE-2021-44532 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-44532)"
+              },
+              "fullDescription": {
+                "text": "Node.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints.Versions of Node.js with the fix for this escape SANs containing the problematic characters in order to prevent the injection. This behavior can be reverted through the --security-revert command-line option.",
+                "markdown": "# CVE-2021-44532  \nNode.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints.Versions of Node.js with the fix for this escape SANs containing the problematic characters in order to prevent the injection. This behavior can be reverted through the --security-revert command-line option.  \n**(cvss: 5.3)(epss: 0.00394)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-44532](https://nvd.nist.gov/vuln/detail/CVE-2021-44532)\n"
+              },
+              "help": {
+                "text": "Node.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints.Versions of Node.js with the fix for this escape SANs containing the problematic characters in order to prevent the injection. This behavior can be reverted through the --security-revert command-line option.",
+                "markdown": "# CVE-2021-44532  \nNode.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints.Versions of Node.js with the fix for this escape SANs containing the problematic characters in order to prevent the injection. This behavior can be reverted through the --security-revert command-line option.  \n**(cvss: 5.3)(epss: 0.00394)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-44532](https://nvd.nist.gov/vuln/detail/CVE-2021-44532)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2020-1967 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2020-1967)"
+              },
+              "fullDescription": {
+                "text": "Server or client applications that call the SSL_check_chain() function during or after a TLS 1.3 handshake may crash due to a NULL pointer dereference as a result of incorrect handling of the \"signature_algorithms_cert\" TLS extension. The crash occurs if an invalid or unrecognised signature algorithm is received from the peer. This could be exploited by a malicious peer in a Denial of Service attack. OpenSSL version 1.1.1d, 1.1.1e, and 1.1.1f are affected by this issue. This issue did not affect OpenSSL versions prior to 1.1.1d. Fixed in OpenSSL 1.1.1g (Affected 1.1.1d-1.1.1f).",
+                "markdown": "# CVE-2020-1967  \nServer or client applications that call the SSL_check_chain() function during or after a TLS 1.3 handshake may crash due to a NULL pointer dereference as a result of incorrect handling of the \"signature_algorithms_cert\" TLS extension. The crash occurs if an invalid or unrecognised signature algorithm is received from the peer. This could be exploited by a malicious peer in a Denial of Service attack. OpenSSL version 1.1.1d, 1.1.1e, and 1.1.1f are affected by this issue. This issue did not affect OpenSSL versions prior to 1.1.1d. Fixed in OpenSSL 1.1.1g (Affected 1.1.1d-1.1.1f).  \n**(cvss: 7.5)(epss: 0.33995)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2020-1967](https://nvd.nist.gov/vuln/detail/CVE-2020-1967)\n+ [https://github.com/irsl/CVE-2020-1967](https://github.com/irsl/CVE-2020-1967)\n"
+              },
+              "help": {
+                "text": "Server or client applications that call the SSL_check_chain() function during or after a TLS 1.3 handshake may crash due to a NULL pointer dereference as a result of incorrect handling of the \"signature_algorithms_cert\" TLS extension. The crash occurs if an invalid or unrecognised signature algorithm is received from the peer. This could be exploited by a malicious peer in a Denial of Service attack. OpenSSL version 1.1.1d, 1.1.1e, and 1.1.1f are affected by this issue. This issue did not affect OpenSSL versions prior to 1.1.1d. Fixed in OpenSSL 1.1.1g (Affected 1.1.1d-1.1.1f).",
+                "markdown": "# CVE-2020-1967  \nServer or client applications that call the SSL_check_chain() function during or after a TLS 1.3 handshake may crash due to a NULL pointer dereference as a result of incorrect handling of the \"signature_algorithms_cert\" TLS extension. The crash occurs if an invalid or unrecognised signature algorithm is received from the peer. This could be exploited by a malicious peer in a Denial of Service attack. OpenSSL version 1.1.1d, 1.1.1e, and 1.1.1f are affected by this issue. This issue did not affect OpenSSL versions prior to 1.1.1d. Fixed in OpenSSL 1.1.1g (Affected 1.1.1d-1.1.1f).  \n**(cvss: 7.5)(epss: 0.33995)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2020-1967](https://nvd.nist.gov/vuln/detail/CVE-2020-1967)\n+ [https://github.com/irsl/CVE-2020-1967](https://github.com/irsl/CVE-2020-1967)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "8.0"
+              }
+            },
+            {
+              "id": "CVE-2021-3712 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-3712)"
+              },
+              "fullDescription": {
+                "text": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL\u0027s own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such as private keys, or sensitive plaintext). Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k). Fixed in OpenSSL 1.0.2za (Affected 1.0.2-1.0.2y).",
+                "markdown": "# CVE-2021-3712  \nASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL\u0027s own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such as private keys, or sensitive plaintext). Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k). Fixed in OpenSSL 1.0.2za (Affected 1.0.2-1.0.2y).  \n**(cvss: 7.4)(epss: 0.00396)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-3712](https://nvd.nist.gov/vuln/detail/CVE-2021-3712)\n"
+              },
+              "help": {
+                "text": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL\u0027s own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such as private keys, or sensitive plaintext). Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k). Fixed in OpenSSL 1.0.2za (Affected 1.0.2-1.0.2y).",
+                "markdown": "# CVE-2021-3712  \nASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL\u0027s own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such as private keys, or sensitive plaintext). Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k). Fixed in OpenSSL 1.0.2za (Affected 1.0.2-1.0.2y).  \n**(cvss: 7.4)(epss: 0.00396)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-3712](https://nvd.nist.gov/vuln/detail/CVE-2021-3712)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "8.0"
+              }
+            },
+            {
+              "id": "CVE-2022-21363 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2022-21363)"
+              },
+              "fullDescription": {
+                "text": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.27 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in takeover of MySQL Connectors. CVSS 3.1 Base Score 6.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H).\n",
+                "markdown": "# CVE-2022-21363  \nVulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.27 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in takeover of MySQL Connectors. CVSS 3.1 Base Score 6.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H).\n  \n**(cvss: 6.6)(epss: 0.00087)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-21363](https://nvd.nist.gov/vuln/detail/CVE-2022-21363)\n"
+              },
+              "help": {
+                "text": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.27 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in takeover of MySQL Connectors. CVSS 3.1 Base Score 6.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H).\n",
+                "markdown": "# CVE-2022-21363  \nVulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.27 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in takeover of MySQL Connectors. CVSS 3.1 Base Score 6.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H).\n  \n**(cvss: 6.6)(epss: 0.00087)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-21363](https://nvd.nist.gov/vuln/detail/CVE-2022-21363)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2021-3711 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-3711)"
+              },
+              "fullDescription": {
+                "text": "In order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).",
+                "markdown": "# CVE-2021-3711  \nIn order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).  \n**(cvss: 9.8)(epss: 0.05174)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-3711](https://nvd.nist.gov/vuln/detail/CVE-2021-3711)\n"
+              },
+              "help": {
+                "text": "In order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).",
+                "markdown": "# CVE-2021-3711  \nIn order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).  \n**(cvss: 9.8)(epss: 0.05174)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-3711](https://nvd.nist.gov/vuln/detail/CVE-2021-3711)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "10.0"
+              }
+            },
+            {
+              "id": "CVE-2021-3450 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-3450)"
+              },
+              "fullDescription": {
+                "text": "The X509_V_FLAG_X509_STRICT flag enables additional security checks of the certificates present in a certificate chain. It is not set by default. Starting from OpenSSL version 1.1.1h a check to disallow certificates in the chain that have explicitly encoded elliptic curve parameters was added as an additional strict check. An error in the implementation of this check meant that the result of a previous check to confirm that certificates in the chain are valid CA certificates was overwritten. This effectively bypasses the check that non-CA certificates must not be able to issue other certificates. If a \"purpose\" has been configured then there is a subsequent opportunity for checks that the certificate is a valid CA. All of the named \"purpose\" values implemented in libcrypto perform this check. Therefore, where a purpose is set the certificate chain will still be rejected even when the strict flag has been used. A purpose is set by default in libssl client and server certificate verification routines, but it can be overridden or removed by an application. In order to be affected, an application must explicitly set the X509_V_FLAG_X509_STRICT verification flag and either not set a purpose for the certificate verification or, in the case of TLS client or server applications, override the default purpose. OpenSSL versions 1.1.1h and newer are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1h-1.1.1j).",
+                "markdown": "# CVE-2021-3450  \nThe X509_V_FLAG_X509_STRICT flag enables additional security checks of the certificates present in a certificate chain. It is not set by default. Starting from OpenSSL version 1.1.1h a check to disallow certificates in the chain that have explicitly encoded elliptic curve parameters was added as an additional strict check. An error in the implementation of this check meant that the result of a previous check to confirm that certificates in the chain are valid CA certificates was overwritten. This effectively bypasses the check that non-CA certificates must not be able to issue other certificates. If a \"purpose\" has been configured then there is a subsequent opportunity for checks that the certificate is a valid CA. All of the named \"purpose\" values implemented in libcrypto perform this check. Therefore, where a purpose is set the certificate chain will still be rejected even when the strict flag has been used. A purpose is set by default in libssl client and server certificate verification routines, but it can be overridden or removed by an application. In order to be affected, an application must explicitly set the X509_V_FLAG_X509_STRICT verification flag and either not set a purpose for the certificate verification or, in the case of TLS client or server applications, override the default purpose. OpenSSL versions 1.1.1h and newer are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1h-1.1.1j).  \n**(cvss: 7.4)(epss: 0.00192)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-3450](https://nvd.nist.gov/vuln/detail/CVE-2021-3450)\n"
+              },
+              "help": {
+                "text": "The X509_V_FLAG_X509_STRICT flag enables additional security checks of the certificates present in a certificate chain. It is not set by default. Starting from OpenSSL version 1.1.1h a check to disallow certificates in the chain that have explicitly encoded elliptic curve parameters was added as an additional strict check. An error in the implementation of this check meant that the result of a previous check to confirm that certificates in the chain are valid CA certificates was overwritten. This effectively bypasses the check that non-CA certificates must not be able to issue other certificates. If a \"purpose\" has been configured then there is a subsequent opportunity for checks that the certificate is a valid CA. All of the named \"purpose\" values implemented in libcrypto perform this check. Therefore, where a purpose is set the certificate chain will still be rejected even when the strict flag has been used. A purpose is set by default in libssl client and server certificate verification routines, but it can be overridden or removed by an application. In order to be affected, an application must explicitly set the X509_V_FLAG_X509_STRICT verification flag and either not set a purpose for the certificate verification or, in the case of TLS client or server applications, override the default purpose. OpenSSL versions 1.1.1h and newer are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1h-1.1.1j).",
+                "markdown": "# CVE-2021-3450  \nThe X509_V_FLAG_X509_STRICT flag enables additional security checks of the certificates present in a certificate chain. It is not set by default. Starting from OpenSSL version 1.1.1h a check to disallow certificates in the chain that have explicitly encoded elliptic curve parameters was added as an additional strict check. An error in the implementation of this check meant that the result of a previous check to confirm that certificates in the chain are valid CA certificates was overwritten. This effectively bypasses the check that non-CA certificates must not be able to issue other certificates. If a \"purpose\" has been configured then there is a subsequent opportunity for checks that the certificate is a valid CA. All of the named \"purpose\" values implemented in libcrypto perform this check. Therefore, where a purpose is set the certificate chain will still be rejected even when the strict flag has been used. A purpose is set by default in libssl client and server certificate verification routines, but it can be overridden or removed by an application. In order to be affected, an application must explicitly set the X509_V_FLAG_X509_STRICT verification flag and either not set a purpose for the certificate verification or, in the case of TLS client or server applications, override the default purpose. OpenSSL versions 1.1.1h and newer are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1h-1.1.1j).  \n**(cvss: 7.4)(epss: 0.00192)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-3450](https://nvd.nist.gov/vuln/detail/CVE-2021-3450)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "8.0"
+              }
+            },
+            {
+              "id": "CVE-2020-2934 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2020-2934)"
+              },
+              "fullDescription": {
+                "text": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.19 and prior and 5.1.48 and prior. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Connectors accessible data as well as unauthorized read access to a subset of MySQL Connectors accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.0 Base Score 5.0 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L).",
+                "markdown": "# CVE-2020-2934  \nVulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.19 and prior and 5.1.48 and prior. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Connectors accessible data as well as unauthorized read access to a subset of MySQL Connectors accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.0 Base Score 5.0 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L).  \n**(cvss: 5.0)(epss: 0.0036)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2020-2934](https://nvd.nist.gov/vuln/detail/CVE-2020-2934)\n"
+              },
+              "help": {
+                "text": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.19 and prior and 5.1.48 and prior. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Connectors accessible data as well as unauthorized read access to a subset of MySQL Connectors accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.0 Base Score 5.0 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L).",
+                "markdown": "# CVE-2020-2934  \nVulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.19 and prior and 5.1.48 and prior. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Connectors accessible data as well as unauthorized read access to a subset of MySQL Connectors accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.0 Base Score 5.0 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L).  \n**(cvss: 5.0)(epss: 0.0036)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2020-2934](https://nvd.nist.gov/vuln/detail/CVE-2020-2934)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2021-44533 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-44533)"
+              },
+              "fullDescription": {
+                "text": "Node.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 did not handle multi-value Relative Distinguished Names correctly. Attackers could craft certificate subjects containing a single-value Relative Distinguished Name that would be interpreted as a multi-value Relative Distinguished Name, for example, in order to inject a Common Name that would allow bypassing the certificate subject verification.Affected versions of Node.js that do not accept multi-value Relative Distinguished Names and are thus not vulnerable to such attacks themselves. However, third-party code that uses node\u0027s ambiguous presentation of certificate subjects may be vulnerable.",
+                "markdown": "# CVE-2021-44533  \nNode.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 did not handle multi-value Relative Distinguished Names correctly. Attackers could craft certificate subjects containing a single-value Relative Distinguished Name that would be interpreted as a multi-value Relative Distinguished Name, for example, in order to inject a Common Name that would allow bypassing the certificate subject verification.Affected versions of Node.js that do not accept multi-value Relative Distinguished Names and are thus not vulnerable to such attacks themselves. However, third-party code that uses node\u0027s ambiguous presentation of certificate subjects may be vulnerable.  \n**(cvss: 5.3)(epss: 0.00337)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-44533](https://nvd.nist.gov/vuln/detail/CVE-2021-44533)\n"
+              },
+              "help": {
+                "text": "Node.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 did not handle multi-value Relative Distinguished Names correctly. Attackers could craft certificate subjects containing a single-value Relative Distinguished Name that would be interpreted as a multi-value Relative Distinguished Name, for example, in order to inject a Common Name that would allow bypassing the certificate subject verification.Affected versions of Node.js that do not accept multi-value Relative Distinguished Names and are thus not vulnerable to such attacks themselves. However, third-party code that uses node\u0027s ambiguous presentation of certificate subjects may be vulnerable.",
+                "markdown": "# CVE-2021-44533  \nNode.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 did not handle multi-value Relative Distinguished Names correctly. Attackers could craft certificate subjects containing a single-value Relative Distinguished Name that would be interpreted as a multi-value Relative Distinguished Name, for example, in order to inject a Common Name that would allow bypassing the certificate subject verification.Affected versions of Node.js that do not accept multi-value Relative Distinguished Names and are thus not vulnerable to such attacks themselves. However, third-party code that uses node\u0027s ambiguous presentation of certificate subjects may be vulnerable.  \n**(cvss: 5.3)(epss: 0.00337)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-44533](https://nvd.nist.gov/vuln/detail/CVE-2021-44533)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2023-21971 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2023-21971)"
+              },
+              "fullDescription": {
+                "text": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 8.0.32 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Connectors as well as  unauthorized update, insert or delete access to some of MySQL Connectors accessible data and  unauthorized read access to a subset of MySQL Connectors accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:H).",
+                "markdown": "# CVE-2023-21971  \nVulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 8.0.32 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Connectors as well as  unauthorized update, insert or delete access to some of MySQL Connectors accessible data and  unauthorized read access to a subset of MySQL Connectors accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:H).  \n**(cvss: 5.3)(epss: 0.00086)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2023-21971](https://nvd.nist.gov/vuln/detail/CVE-2023-21971)\n"
+              },
+              "help": {
+                "text": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 8.0.32 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Connectors as well as  unauthorized update, insert or delete access to some of MySQL Connectors accessible data and  unauthorized read access to a subset of MySQL Connectors accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:H).",
+                "markdown": "# CVE-2023-21971  \nVulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 8.0.32 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Connectors as well as  unauthorized update, insert or delete access to some of MySQL Connectors accessible data and  unauthorized read access to a subset of MySQL Connectors accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:H).  \n**(cvss: 5.3)(epss: 0.00086)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2023-21971](https://nvd.nist.gov/vuln/detail/CVE-2023-21971)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2022-21824 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2022-21824)"
+              },
+              "fullDescription": {
+                "text": "Due to the formatting logic of the \"console.table()\" function it was not safe to allow user controlled input to be passed to the \"properties\" parameter while simultaneously passing a plain object with at least one property as the first parameter, which could be \"__proto__\". The prototype pollution has very limited control, in that it only allows an empty string to be assigned to numerical keys of the object prototype.Node.js \u003e\u003d 12.22.9, \u003e\u003d 14.18.3, \u003e\u003d 16.13.2, and \u003e\u003d 17.3.1 use a null protoype for the object these properties are being assigned to.",
+                "markdown": "# CVE-2022-21824  \nDue to the formatting logic of the \"console.table()\" function it was not safe to allow user controlled input to be passed to the \"properties\" parameter while simultaneously passing a plain object with at least one property as the first parameter, which could be \"__proto__\". The prototype pollution has very limited control, in that it only allows an empty string to be assigned to numerical keys of the object prototype.Node.js \u003e\u003d 12.22.9, \u003e\u003d 14.18.3, \u003e\u003d 16.13.2, and \u003e\u003d 17.3.1 use a null protoype for the object these properties are being assigned to.  \n**(cvss: 8.2)(epss: 0.00349)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-21824](https://nvd.nist.gov/vuln/detail/CVE-2022-21824)\n"
+              },
+              "help": {
+                "text": "Due to the formatting logic of the \"console.table()\" function it was not safe to allow user controlled input to be passed to the \"properties\" parameter while simultaneously passing a plain object with at least one property as the first parameter, which could be \"__proto__\". The prototype pollution has very limited control, in that it only allows an empty string to be assigned to numerical keys of the object prototype.Node.js \u003e\u003d 12.22.9, \u003e\u003d 14.18.3, \u003e\u003d 16.13.2, and \u003e\u003d 17.3.1 use a null protoype for the object these properties are being assigned to.",
+                "markdown": "# CVE-2022-21824  \nDue to the formatting logic of the \"console.table()\" function it was not safe to allow user controlled input to be passed to the \"properties\" parameter while simultaneously passing a plain object with at least one property as the first parameter, which could be \"__proto__\". The prototype pollution has very limited control, in that it only allows an empty string to be assigned to numerical keys of the object prototype.Node.js \u003e\u003d 12.22.9, \u003e\u003d 14.18.3, \u003e\u003d 16.13.2, and \u003e\u003d 17.3.1 use a null protoype for the object these properties are being assigned to.  \n**(cvss: 8.2)(epss: 0.00349)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2022-21824](https://nvd.nist.gov/vuln/detail/CVE-2022-21824)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "8.0"
+              }
+            },
+            {
+              "id": "CVE-2021-2471 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-2471)"
+              },
+              "fullDescription": {
+                "text": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.26 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Connectors accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Connectors. CVSS 3.1 Base Score 5.9 (Confidentiality and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:H).",
+                "markdown": "# CVE-2021-2471  \nVulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.26 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Connectors accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Connectors. CVSS 3.1 Base Score 5.9 (Confidentiality and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:H).  \n**(cvss: 5.9)(epss: 0.00063)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-2471](https://nvd.nist.gov/vuln/detail/CVE-2021-2471)\n"
+              },
+              "help": {
+                "text": "Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.26 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Connectors accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Connectors. CVSS 3.1 Base Score 5.9 (Confidentiality and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:H).",
+                "markdown": "# CVE-2021-2471  \nVulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions that are affected are 8.0.26 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Connectors accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Connectors. CVSS 3.1 Base Score 5.9 (Confidentiality and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:H).  \n**(cvss: 5.9)(epss: 0.00063)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-2471](https://nvd.nist.gov/vuln/detail/CVE-2021-2471)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2021-3449 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-3449)"
+              },
+              "fullDescription": {
+                "text": "An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation ClientHello message from a client. If a TLSv1.2 renegotiation ClientHello omits the signature_algorithms extension (where it was present in the initial ClientHello), but includes a signature_algorithms_cert extension then a NULL pointer dereference will result, leading to a crash and a denial of service attack. A server is only vulnerable if it has TLSv1.2 and renegotiation enabled (which is the default configuration). OpenSSL TLS clients are not impacted by this issue. All OpenSSL 1.1.1 versions are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1-1.1.1j).",
+                "markdown": "# CVE-2021-3449  \nAn OpenSSL TLS server may crash if sent a maliciously crafted renegotiation ClientHello message from a client. If a TLSv1.2 renegotiation ClientHello omits the signature_algorithms extension (where it was present in the initial ClientHello), but includes a signature_algorithms_cert extension then a NULL pointer dereference will result, leading to a crash and a denial of service attack. A server is only vulnerable if it has TLSv1.2 and renegotiation enabled (which is the default configuration). OpenSSL TLS clients are not impacted by this issue. All OpenSSL 1.1.1 versions are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1-1.1.1j).  \n**(cvss: 5.9)(epss: 0.00292)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-3449](https://nvd.nist.gov/vuln/detail/CVE-2021-3449)\n"
+              },
+              "help": {
+                "text": "An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation ClientHello message from a client. If a TLSv1.2 renegotiation ClientHello omits the signature_algorithms extension (where it was present in the initial ClientHello), but includes a signature_algorithms_cert extension then a NULL pointer dereference will result, leading to a crash and a denial of service attack. A server is only vulnerable if it has TLSv1.2 and renegotiation enabled (which is the default configuration). OpenSSL TLS clients are not impacted by this issue. All OpenSSL 1.1.1 versions are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1-1.1.1j).",
+                "markdown": "# CVE-2021-3449  \nAn OpenSSL TLS server may crash if sent a maliciously crafted renegotiation ClientHello message from a client. If a TLSv1.2 renegotiation ClientHello omits the signature_algorithms extension (where it was present in the initial ClientHello), but includes a signature_algorithms_cert extension then a NULL pointer dereference will result, leading to a crash and a denial of service attack. A server is only vulnerable if it has TLSv1.2 and renegotiation enabled (which is the default configuration). OpenSSL TLS clients are not impacted by this issue. All OpenSSL 1.1.1 versions are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1-1.1.1j).  \n**(cvss: 5.9)(epss: 0.00292)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-3449](https://nvd.nist.gov/vuln/detail/CVE-2021-3449)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "5.0"
+              }
+            },
+            {
+              "id": "CVE-2021-44531 (mysql:mysql-connector-java)",
+              "shortDescription": {
+                "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-44531)"
+              },
+              "fullDescription": {
+                "text": "Accepting arbitrary Subject Alternative Name (SAN) types, unless a PKI is specifically defined to use a particular SAN type, can result in bypassing name-constrained intermediates. Node.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 was accepting URI SAN types, which PKIs are often not defined to use. Additionally, when a protocol allows URI SANs, Node.js did not match the URI correctly.Versions of Node.js with the fix for this disable the URI SAN type when checking a certificate against a hostname. This behavior can be reverted through the --security-revert command-line option.",
+                "markdown": "# CVE-2021-44531  \nAccepting arbitrary Subject Alternative Name (SAN) types, unless a PKI is specifically defined to use a particular SAN type, can result in bypassing name-constrained intermediates. Node.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 was accepting URI SAN types, which PKIs are often not defined to use. Additionally, when a protocol allows URI SANs, Node.js did not match the URI correctly.Versions of Node.js with the fix for this disable the URI SAN type when checking a certificate against a hostname. This behavior can be reverted through the --security-revert command-line option.  \n**(cvss: 7.4)(epss: 0.0017)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-44531](https://nvd.nist.gov/vuln/detail/CVE-2021-44531)\n"
+              },
+              "help": {
+                "text": "Accepting arbitrary Subject Alternative Name (SAN) types, unless a PKI is specifically defined to use a particular SAN type, can result in bypassing name-constrained intermediates. Node.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 was accepting URI SAN types, which PKIs are often not defined to use. Additionally, when a protocol allows URI SANs, Node.js did not match the URI correctly.Versions of Node.js with the fix for this disable the URI SAN type when checking a certificate against a hostname. This behavior can be reverted through the --security-revert command-line option.",
+                "markdown": "# CVE-2021-44531  \nAccepting arbitrary Subject Alternative Name (SAN) types, unless a PKI is specifically defined to use a particular SAN type, can result in bypassing name-constrained intermediates. Node.js \u003c 12.22.9, \u003c 14.18.3, \u003c 16.13.2, and \u003c 17.3.1 was accepting URI SAN types, which PKIs are often not defined to use. Additionally, when a protocol allows URI SANs, Node.js did not match the URI correctly.Versions of Node.js with the fix for this disable the URI SAN type when checking a certificate against a hostname. This behavior can be reverted through the --security-revert command-line option.  \n**(cvss: 7.4)(epss: 0.0017)**  \n## Safe Versions  \n+ 8.0.33 (patch upgrade)  \n## Full Meterian Report  \n[https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli](https://qa.meterian.com/projects/?pid\u003d064e2f05-5f0b-45ca-bd9f-445a766879b0\u0026branch\u003dsarif\u0026mode\u003deli)  \n## More information  \n+ [https://nvd.nist.gov/vuln/detail/CVE-2021-44531](https://nvd.nist.gov/vuln/detail/CVE-2021-44531)\n"
+              },
+              "properties": {
+                "tags": [
+                  "security"
+                ],
+                "security-severity": "8.0"
+              }
+            },
+            {
+              "id": "update ch.qos.logback:logback-core-1.1.11",
+              "shortDescription": {
+                "text": "[stability] ch.qos.logback:logback-core-1.1.11 is outdated"
+              },
+              "fullDescription": {
+                "text": "The package ch.qos.logback:logback-core-1.1.11 is outdated.\nA new minor release 1.4.9 is available."
+              },
+              "help": {
+                "text": "The package ch.qos.logback:logback-core-1.1.11 is outdated.\nA new minor release 1.4.9 is available."
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ]
+              }
+            },
+            {
+              "id": "update junit:junit-3.8.2",
+              "shortDescription": {
+                "text": "[stability] junit:junit-3.8.2 is outdated"
+              },
+              "fullDescription": {
+                "text": "The package junit:junit-3.8.2 is outdated.\nA new major release 4.13.2 is available."
+              },
+              "help": {
+                "text": "The package junit:junit-3.8.2 is outdated.\nA new major release 4.13.2 is available."
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ]
+              }
+            },
+            {
+              "id": "update mysql:mysql-connector-java-8.0.16",
+              "shortDescription": {
+                "text": "[stability] mysql:mysql-connector-java-8.0.16 is outdated"
+              },
+              "fullDescription": {
+                "text": "The package mysql:mysql-connector-java-8.0.16 is outdated.\nA new patch release 8.0.33 is available."
+              },
+              "help": {
+                "text": "The package mysql:mysql-connector-java-8.0.16 is outdated.\nA new patch release 8.0.33 is available."
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "artifacts": [],
+      "results": [
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2017-5929 (ch.qos.logback:logback-core)",
+            "properties": {
+              "urls": [
+                "https://logback.qos.ch/news.html",
+                "CVE-2017-5929"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] ch.qos.logback:logback-core-1.1.11 is vulnerable (CVE-2017-5929)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2017-5929 (ch.qos.logback:logback-core) affects package ch.qos.logback:logback-core-1.1.11"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ch.qos.logback%3Alogback-core-1.1.11"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-42550 (ch.qos.logback:logback-core)",
+            "properties": {
+              "urls": [
+                "CVE-2021-42550",
+                "https://github.com/cn-panda/logbackRceDemo",
+                "https://jira.qos.ch/browse/LOGBACK-1591",
+                "http://logback.qos.ch/news.html",
+                "https://github.com/qos-ch/logback/commit/87291079a1de9369ac67e20dc70a8fdc7cc4359c",
+                "https://github.com/qos-ch/logback/commit/ef4fc4186b74b45ce80d86833820106ff27edd42",
+                "https://github.com/qos-ch/logback/blob/1502cba4c1dfd135b2e715bc0cf80c0045d4d128/logback-site/src/site/pages/news.html",
+                "https://security.netapp.com/advisory/ntap-20211229-0001/",
+                "https://github.com/advisories/GHSA-668q-qrv7-99fm",
+                "https://gitlab.com/gitlab-org/advisories-community/-/blob/main/maven/ch.qos.logback/logback-core/CVE-2021-42550.yml",
+                "http://seclists.org/fulldisclosure/2022/Jul/11",
+                "http://packetstormsecurity.com/files/167794/Open-Xchange-App-Suite-7.10.x-Cross-Site-Scripting-Command-Injection.html",
+                "https://cert-portal.siemens.com/productcert/pdf/ssa-371761.pdf"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] ch.qos.logback:logback-core-1.1.11 is vulnerable (CVE-2021-42550)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-42550 (ch.qos.logback:logback-core) affects package ch.qos.logback:logback-core-1.1.11"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ch.qos.logback%3Alogback-core-1.1.11"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2022-3171 (com.google.protobuf:protobuf-java)",
+            "properties": {
+              "urls": [
+                "CVE-2022-3171",
+                "https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-h4h5-3hr4-j3g2",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CBAUKJQL6O4TIWYBENORSY5P43TVB4M3/",
+                "https://security.gentoo.org/glsa/202301-09",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MPCGUT3T5L6C3IDWUPSUO22QDCGQKTOP/"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3171)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2022-3171 (com.google.protobuf:protobuf-java) affects package com.google.protobuf:protobuf-java-3.6.1"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2022-3509 (com.google.protobuf:protobuf-java)",
+            "properties": {
+              "urls": [
+                "https://nvd.nist.gov/vuln/detail/CVE-2022-3509",
+                "https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9",
+                "https://github.com/advisories/GHSA-g5ww-5jh7-63cx",
+                "CVE-2022-3509"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3509)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2022-3509 (com.google.protobuf:protobuf-java) affects package com.google.protobuf:protobuf-java-3.6.1"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-22570 (com.google.protobuf:protobuf-java)",
+            "properties": {
+              "urls": [
+                "https://nvd.nist.gov/vuln/detail/CVE-2021-22570",
+                "https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.0",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IFX6KPNOFHYD6L4XES5PCM3QNSKZBOTQ/",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3DVUZPALAQ34TQP6KFNLM4IZS6B32XSA/",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTRGBRC5KGCA4SK5MUNLPYJRAGXMBIYY/",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NVTWVQRB5OCCTMKEQFY5MYED3DXDVSLP/",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5PAGL5M2KGYPN3VEQCRJJE6NA7D5YG5X/",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KQJB6ZPRLKV6WCMX2PRRRQBFAOXFBK6B/",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MRWRAXAFR3JR7XCFWTHC2KALSZKWACCE/",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://security.netapp.com/advisory/ntap-20220429-0005/",
+                "https://lists.debian.org/debian-lts-announce/2023/04/msg00019.html",
+                "https://github.com/advisories/GHSA-77rm-9x9h-xj3g",
+                "CVE-2021-22570"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2021-22570)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-22570 (com.google.protobuf:protobuf-java) affects package com.google.protobuf:protobuf-java-3.6.1"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-22569 (com.google.protobuf:protobuf-java)",
+            "properties": {
+              "urls": [
+                "CVE-2021-22569",
+                "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id\u003d39330",
+                "https://cloud.google.com/support/bulletins#gcp-2022-001",
+                "http://www.openwall.com/lists/oss-security/2022/01/12/4",
+                "http://www.openwall.com/lists/oss-security/2022/01/12/7",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://lists.debian.org/debian-lts-announce/2023/04/msg00019.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2021-22569)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-22569 (com.google.protobuf:protobuf-java) affects package com.google.protobuf:protobuf-java-3.6.1"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2022-3510 (com.google.protobuf:protobuf-java)",
+            "properties": {
+              "urls": [
+                "https://nvd.nist.gov/vuln/detail/CVE-2022-3510",
+                "https://github.com/protocolbuffers/protobuf/commit/db7c17803320525722f45c1d26fc08bc41d1bf48",
+                "https://github.com/advisories/GHSA-4gg5-vx3j-xwc7",
+                "CVE-2022-3510"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] com.google.protobuf:protobuf-java-3.6.1 is vulnerable (CVE-2022-3510)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2022-3510 (com.google.protobuf:protobuf-java) affects package com.google.protobuf:protobuf-java-3.6.1"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "com.google.protobuf%3Aprotobuf-java-3.6.1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-44532 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2021-44532",
+                "https://hackerone.com/reports/1429694",
+                "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
+                "https://security.netapp.com/advisory/ntap-20220325-0007/",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://www.debian.org/security/2022/dsa-5170",
+                "https://www.oracle.com/security-alerts/cpujul2022.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-44532)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-44532 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2020-1967 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2020-1967",
+                "https://git.openssl.org/gitweb/?p\u003dopenssl.git;a\u003dcommitdiff;h\u003deb563247aef3e83dda7679c43f9649270462e5b1",
+                "https://www.openssl.org/news/secadv/20200421.txt",
+                "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:11.openssl.asc",
+                "https://www.debian.org/security/2020/dsa-4661",
+                "http://www.openwall.com/lists/oss-security/2020/04/22/2",
+                "https://lists.apache.org/thread.html/r9a41e304992ce6aec6585a87842b4f2e692604f5c892c37e3b0587ee@%3Cdev.tomcat.apache.org%3E",
+                "https://lists.apache.org/thread.html/r66ea9c436da150683432db5fbc8beb8ae01886c6459ac30c2cea7345@%3Cdev.tomcat.apache.org%3E",
+                "https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44440",
+                "https://lists.apache.org/thread.html/r94d6ac3f010a38fccf4f432b12180a13fa1cf303559bd805648c9064@%3Cdev.tomcat.apache.org%3E",
+                "https://security.gentoo.org/glsa/202004-10",
+                "https://security.netapp.com/advisory/ntap-20200424-0003/",
+                "https://www.synology.com/security/advisory/Synology_SA_20_05_OpenSSL",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XVEP3LAK4JSPRXFO4QF4GG2IVXADV3SO/",
+                "https://www.tenable.com/security/tns-2020-03",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DDHOAATPWJCXRNFMJ2SASDBBNU5RJONY/",
+                "https://github.com/irsl/CVE-2020-1967",
+                "http://seclists.org/fulldisclosure/2020/May/5",
+                "http://packetstormsecurity.com/files/157527/OpenSSL-signature_algorithms_cert-Denial-Of-Service.html",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EXDDAOWSAIEFQNBHWYE6PPYFV4QXGMCD/",
+                "https://www.synology.com/security/advisory/Synology_SA_20_05",
+                "https://www.tenable.com/security/tns-2020-04",
+                "http://lists.opensuse.org/opensuse-security-announce/2020-07/msg00004.html",
+                "http://lists.opensuse.org/opensuse-security-announce/2020-07/msg00011.html",
+                "https://www.oracle.com/security-alerts/cpujul2020.html",
+                "https://security.netapp.com/advisory/ntap-20200717-0004/",
+                "https://www.oracle.com/security-alerts/cpuoct2020.html",
+                "https://www.tenable.com/security/tns-2020-11",
+                "https://www.oracle.com/security-alerts/cpujan2021.html",
+                "https://www.tenable.com/security/tns-2021-10",
+                "https://www.oracle.com/security-alerts/cpuApr2021.html",
+                "https://www.oracle.com//security-alerts/cpujul2021.html",
+                "https://www.oracle.com/security-alerts/cpuoct2021.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2020-1967)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2020-1967 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-3712 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2021-3712",
+                "https://www.openssl.org/news/secadv/20210824.txt",
+                "https://git.openssl.org/gitweb/?p\u003dopenssl.git;a\u003dcommitdiff;h\u003d94d23fcff9b2a7a8368dfe52214d5c2569882c11",
+                "https://git.openssl.org/gitweb/?p\u003dopenssl.git;a\u003dcommitdiff;h\u003dccb0a11145ee72b042d10593a64eaf9e8a55ec12",
+                "https://www.debian.org/security/2021/dsa-4963",
+                "https://lists.apache.org/thread.html/r18995de860f0e63635f3008fd2a6aca82394249476d21691e7c59c9e@%3Cdev.tomcat.apache.org%3E",
+                "http://www.openwall.com/lists/oss-security/2021/08/26/2",
+                "https://lists.apache.org/thread.html/rad5d9f83f0d11fb3f8bb148d179b8a9ad7c6a17f18d70e5805a713d1@%3Cdev.tomcat.apache.org%3E",
+                "https://security.netapp.com/advisory/ntap-20210827-0010/",
+                "https://www.tenable.com/security/tns-2021-16",
+                "https://lists.debian.org/debian-lts-announce/2021/09/msg00014.html",
+                "https://lists.debian.org/debian-lts-announce/2021/09/msg00021.html",
+                "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "https://kc.mcafee.com/corporate/index?page\u003dcontent\u0026id\u003dSB10366",
+                "https://www.tenable.com/security/tns-2022-02",
+                "https://www.oracle.com/security-alerts/cpujan2022.html",
+                "https://cert-portal.siemens.com/productcert/pdf/ssa-244969.pdf",
+                "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://security.gentoo.org/glsa/202209-02",
+                "https://security.gentoo.org/glsa/202210-02"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-3712)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-3712 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2022-21363 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2022-21363",
+                "https://www.oracle.com/security-alerts/cpujan2022.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2022-21363)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2022-21363 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-3711 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2021-3711",
+                "https://www.openssl.org/news/secadv/20210824.txt",
+                "https://git.openssl.org/gitweb/?p\u003dopenssl.git;a\u003dcommitdiff;h\u003d59f5e75f3bced8fc0e130d72a3f582cf7b480b46",
+                "https://www.debian.org/security/2021/dsa-4963",
+                "https://lists.apache.org/thread.html/r18995de860f0e63635f3008fd2a6aca82394249476d21691e7c59c9e@%3Cdev.tomcat.apache.org%3E",
+                "http://www.openwall.com/lists/oss-security/2021/08/26/2",
+                "https://lists.apache.org/thread.html/rad5d9f83f0d11fb3f8bb148d179b8a9ad7c6a17f18d70e5805a713d1@%3Cdev.tomcat.apache.org%3E",
+                "https://security.netapp.com/advisory/ntap-20210827-0010/",
+                "https://www.tenable.com/security/tns-2021-16",
+                "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "https://security.netapp.com/advisory/ntap-20211022-0003/",
+                "https://www.tenable.com/security/tns-2022-02",
+                "https://www.oracle.com/security-alerts/cpujan2022.html",
+                "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://security.gentoo.org/glsa/202209-02",
+                "https://security.gentoo.org/glsa/202210-02"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-3711)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-3711 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-3450 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2021-3450",
+                "https://git.openssl.org/gitweb/?p\u003dopenssl.git;a\u003dcommitdiff;h\u003d2a40b7bc7b94dd7de897a74571e7024f0cf0d63b",
+                "https://www.openssl.org/news/secadv/20210325.txt",
+                "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-2021-GHY28dJd",
+                "https://security.netapp.com/advisory/ntap-20210326-0006/",
+                "https://security.FreeBSD.org/advisories/FreeBSD-SA-21:07.openssl.asc",
+                "http://www.openwall.com/lists/oss-security/2021/03/27/1",
+                "http://www.openwall.com/lists/oss-security/2021/03/27/2",
+                "http://www.openwall.com/lists/oss-security/2021/03/28/3",
+                "http://www.openwall.com/lists/oss-security/2021/03/28/4",
+                "https://security.gentoo.org/glsa/202103-03",
+                "https://www.tenable.com/security/tns-2021-05",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CCBFLLVQVILIVGZMBJL3IXZGKWQISYNP/",
+                "https://www.tenable.com/security/tns-2021-08",
+                "https://kc.mcafee.com/corporate/index?page\u003dcontent\u0026id\u003dSB10356",
+                "https://mta.openssl.org/pipermail/openssl-announce/2021-March/000198.html",
+                "https://www.tenable.com/security/tns-2021-09",
+                "https://www.oracle.com/security-alerts/cpuApr2021.html",
+                "https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44845",
+                "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0013",
+                "https://www.oracle.com//security-alerts/cpujul2021.html",
+                "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://www.oracle.com/security-alerts/cpujul2022.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-3450)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-3450 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2020-2934 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2020-2934",
+                "https://www.oracle.com/security-alerts/cpuapr2020.html",
+                "https://lists.debian.org/debian-lts-announce/2020/06/msg00015.html",
+                "https://www.debian.org/security/2020/dsa-4703",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QDR2WOUETBT76WAO5NNCCXSAM3AGG3D/",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MDKQVPFT4Z4SFPBH6YNFMJOXKS2YYKHA/",
+                "https://security.gentoo.org/glsa/202105-27",
+                "https://www.oracle.com/security-alerts/cpujan2022.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2020-2934)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2020-2934 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-44533 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2021-44533",
+                "https://hackerone.com/reports/1429694",
+                "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
+                "https://security.netapp.com/advisory/ntap-20220325-0007/",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://www.debian.org/security/2022/dsa-5170",
+                "https://www.oracle.com/security-alerts/cpujul2022.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-44533)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-44533 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2023-21971 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2023-21971",
+                "https://www.oracle.com/security-alerts/cpuapr2023.html",
+                "https://security.netapp.com/advisory/ntap-20230427-0010/",
+                "https://security.netapp.com/advisory/ntap-20230427-0007/",
+                "https://www.oracle.com/security-alerts/cpujul2023.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2023-21971)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2023-21971 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2022-21824 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2022-21824",
+                "https://hackerone.com/reports/1431042",
+                "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
+                "https://security.netapp.com/advisory/ntap-20220325-0007/",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://www.debian.org/security/2022/dsa-5170",
+                "https://www.oracle.com/security-alerts/cpujul2022.html",
+                "https://security.netapp.com/advisory/ntap-20220729-0004/",
+                "https://lists.debian.org/debian-lts-announce/2022/10/msg00006.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2022-21824)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2022-21824 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-2471 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2021-2471",
+                "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-2471)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-2471 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-3449 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2021-3449",
+                "https://git.openssl.org/gitweb/?p\u003dopenssl.git;a\u003dcommitdiff;h\u003dfb9fa6b51defd48157eeb207f52181f735d96148",
+                "https://www.openssl.org/news/secadv/20210325.txt",
+                "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-2021-GHY28dJd",
+                "https://www.debian.org/security/2021/dsa-4875",
+                "https://security.netapp.com/advisory/ntap-20210326-0006/",
+                "https://security.FreeBSD.org/advisories/FreeBSD-SA-21:07.openssl.asc",
+                "http://www.openwall.com/lists/oss-security/2021/03/27/1",
+                "http://www.openwall.com/lists/oss-security/2021/03/27/2",
+                "http://www.openwall.com/lists/oss-security/2021/03/28/3",
+                "http://www.openwall.com/lists/oss-security/2021/03/28/4",
+                "https://security.gentoo.org/glsa/202103-03",
+                "https://www.tenable.com/security/tns-2021-06",
+                "https://www.tenable.com/security/tns-2021-05",
+                "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CCBFLLVQVILIVGZMBJL3IXZGKWQISYNP/",
+                "https://kc.mcafee.com/corporate/index?page\u003dcontent\u0026id\u003dSB10356",
+                "https://www.tenable.com/security/tns-2021-09",
+                "https://security.netapp.com/advisory/ntap-20210513-0002/",
+                "https://www.tenable.com/security/tns-2021-10",
+                "https://www.oracle.com/security-alerts/cpuApr2021.html",
+                "https://cert-portal.siemens.com/productcert/pdf/ssa-772220.pdf",
+                "https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44845",
+                "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0013",
+                "https://www.oracle.com//security-alerts/cpujul2021.html",
+                "https://lists.debian.org/debian-lts-announce/2021/08/msg00029.html",
+                "https://www.oracle.com/security-alerts/cpuoct2021.html",
+                "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://www.oracle.com/security-alerts/cpujul2022.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-3449)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-3449 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "CVE-2021-44531 (mysql:mysql-connector-java)",
+            "properties": {
+              "urls": [
+                "CVE-2021-44531",
+                "https://hackerone.com/reports/1429694",
+                "https://nodejs.org/en/blog/vulnerability/jan-2022-security-releases/",
+                "https://security.netapp.com/advisory/ntap-20220325-0007/",
+                "https://www.oracle.com/security-alerts/cpuapr2022.html",
+                "https://www.debian.org/security/2022/dsa-5170",
+                "https://www.oracle.com/security-alerts/cpujul2022.html"
+              ]
+            }
+          },
+          "message": {
+            "text": "[security] mysql:mysql-connector-java-8.0.16 is vulnerable (CVE-2021-44531)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml",
+                  "description": {
+                    "text": "CVE-2021-44531 (mysql:mysql-connector-java) affects package mysql:mysql-connector-java-8.0.16"
+                  }
+                },
+                "region": {
+                  "startLine": -1,
+                  "endLine": -1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "update ch.qos.logback:logback-core-1.1.11",
+            "properties": {
+              "urls": []
+            }
+          },
+          "message": {
+            "text": "[stability] ch.qos.logback:logback-core-1.1.11 is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ch.qos.logback%3Alogback-core-1.1.11"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "note",
+          "rule": {
+            "id": "update junit:junit-3.8.2",
+            "properties": {
+              "urls": []
+            }
+          },
+          "message": {
+            "text": "[stability] junit:junit-3.8.2 is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "junit%3Ajunit-3.8.2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "rule": {
+            "id": "update mysql:mysql-connector-java-8.0.16",
+            "properties": {
+              "urls": []
+            }
+          },
+          "message": {
+            "text": "[stability] mysql:mysql-connector-java-8.0.16 is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mysql%3Amysql-connector-java-8.0.16"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
